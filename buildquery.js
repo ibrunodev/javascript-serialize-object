@@ -24,9 +24,12 @@ function buildQuery(params, parent = null) {
 var query = {
   "id": 123,
   "search_term": "foo",
-  "categories": [ 1, 2, 3 ]
+  "categories": [ 1, 2, 3 ],
+  "other_info": {
+      "foo" : "I have no ideia to put here"
+  }
 };
 
 var URLEncoded = buildQuery(query);
 
-doSomethingWithMyEncodedURL(URLEncoded.join('&'))
+console.log(URLEncoded.join('&'))
