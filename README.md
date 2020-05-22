@@ -1,4 +1,4 @@
-# javascript-serialize-object
+# Javascript Serialize Object
 Simple script to serialize multidimensional object to send via URL in javascript
 
 ## Usage
